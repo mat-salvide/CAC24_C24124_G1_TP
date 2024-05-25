@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding:0;  
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 360px;
+    min-height:100vh;
+}
+
+a {
+    color:white !important;
+}
+
+ul li a:hover{
+    color: #d97c2b !important;
+    font-weight: bold;
+}
+
+.img-header{
+    width: 3rem;
+}
+
+.navbar-brand {
+    font-size: 1.3em !important;
+}
+
+#seccion-carrusel div{
+    height:85vh;
+}
+
+.carousel-caption{
+    display:flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    text-shadow: 2px 2px 3px black;
+}
+
+.carousel-caption .btn-link{
+    text-decoration: none;
+    color: white;
+    background-color: #d97c2b;
+}
+
+.carousel-caption .btn-link:hover{
+    text-decoration: none;
+    color: #d97c2b;
+    background-color:white;
+    font-weight: bold;
+    border: 3px solid #d97c2b;
+}
+
+.naranja{
+    color: #d97c2b;
+}
+
+.carousel-item img{
+    opacity: .6;
+    filter: brightness(70%);
+}
+
+#footer {
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    height: 30px;
+    color: white;
+    background-color:#0D0D0D;
+}
+
+#footer p{
+    font-size:.7rem;
+    padding-top:.5rem;
+}
+
+@media (max-width:539px) {
+    .carousel-caption{ 
+        font-size: 3vw;
+    }    
+}
+
+@media (min-width:540px) {
+    .carousel-caption{ 
+        font-size: 1rem;
+    }    
+}
